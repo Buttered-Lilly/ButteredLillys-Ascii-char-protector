@@ -26,7 +26,7 @@ namespace Ascii_char_protector
             {
                 try
                 {
-                    charProinstance.Logger("newchat");
+                    //charProinstance.Logger("newchat");
                     _message = charProinstance.filter.Replace(_message, "");
                 }
                 catch (Exception e)
@@ -43,7 +43,7 @@ namespace Ascii_char_protector
             {
                 try
                 {
-                    charProinstance.Logger("clientrpc");
+                    //charProinstance.Logger("clientrpc");
                     message = charProinstance.filter.Replace(message, "");
                 }
                 catch (Exception e)
@@ -60,7 +60,7 @@ namespace Ascii_char_protector
             {
                 try
                 {
-                    charProinstance.Logger("CMD");
+                    //charProinstance.Logger("CMD");
                     _message = charProinstance.filter.Replace(_message, "");
                 }
                 catch (Exception e)
@@ -77,7 +77,7 @@ namespace Ascii_char_protector
             {
                 try
                 {
-                    charProinstance.Logger("name");
+                    //charProinstance.Logger("name");
                     _message._nickName = charProinstance.filter.Replace(_message._nickName, "");
                 }
                 catch (Exception e)
